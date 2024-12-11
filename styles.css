@@ -1,0 +1,89 @@
+/* Reset básico */
+body, h1, h2, p {
+    margin: 2%;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo general */
+body {
+    background-color: #262251;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color:#262251;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #fff;
+}
+h2{
+    color: #070606;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #262251;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+button {
+    background-color: #262251;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #262251;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    align-self: flex-start;
+}

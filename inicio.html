@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulario de inicio de sesión para acceder a tu cuenta.">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Iniciar sesión</h2>
+    <h4>Nuestra aplicación promueve la salud y seguridad laboral, brindando herramientas y recursos para empleados y empleadores</h4>
+    <img src="img/WhatsApp Image 2024-11-19 at 4.35.29 PM.jpeg" width="180px">
+
+    <!-- Formulario de inicio de sesión -->
+    <form action="/login" method="POST">
+        <input type="text" name="username" class="input-field" placeholder="Email" required>
+        <input type="password" name="password" class="input-field" placeholder="Contraseña" required>
+        <p></p>
+        <!-- Botón de inicio de sesión como un enlace con href -->
+        <a href="bash.html" class="btn-login">Iniciar sesión</a>
+        <p></p>
+        <a href="registro.html" class="btn-login">Registrarse</a>
+        <p></p>
+        <!-- Enlace para la contraseña olvidada -->
+        <div class="forgot-password">
+            <a href="/forgot-password">¿Olvidaste tu contraseña?</a>
+        </div>
+    </form>
+
+    <!-- Mensaje de error (puedes mostrar este mensaje si la verificación falla) -->
+    <div class="error-message">
+        <!-- Este mensaje se puede mostrar si hay un error en el inicio de sesión -->
+        <!-- Ejemplo: Usuario o contraseña incorrectos -->
+        <!-- <p>Usuario o contraseña incorrectos.</p> -->
+    </div>
+</div>
+
+</body>
+</html>
